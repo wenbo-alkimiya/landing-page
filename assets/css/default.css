@@ -112,17 +112,21 @@ body.page-template-page-fullsingle-me {
   color: #000000;
   background-image: url("../../assets/images/LandingPageBG.png");
   background-position: center center;
-  background-size: cover; }
+  background-size: cover; 
+}
   body.page-template-page-fullsingle-me p {
-    margin-bottom: 28px;
     color: #000000; }
     @media (max-width: 800px) {
       body.page-template-page-fullsingle-me p {
-        font-size: 32px;
+        font-size: 24px;
         line-height: 40px; } }
+            @media (max-width: 450px) {
+      body.page-template-page-fullsingle-me p {
+        font-size: 20px;
+        line-height: 30px; } }
 
 .fs-me {
-  padding: 10vh 10vw;
+  padding: 5vh 5vw;
   overflow: hidden;
   position: absolute;
   z-index: 1000; }
@@ -141,7 +145,7 @@ body.page-template-page-fullsingle-me {
             flex-direction: column; }
     @media (max-width: 500px) {
       .fs-me .me-content {
-        height: 90vh; } }
+        height: 80vh; } }
 
 .bio {
   -webkit-box-flex: 1;
@@ -176,7 +180,6 @@ body.page-template-page-fullsingle-me {
       color: #FFFFFF;
       -webkit-transition: 0.1s;
       transition: 0.1s; }
-
 
 .credit {
   font-size: 24 px;
